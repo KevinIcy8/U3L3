@@ -30,10 +30,10 @@ public class Cat
     {
         int randomNum = (int)(Math.random()*3)+1;
         if (randomNum == 1){
-            System.out.println("What's sup");
+            return"What's sup";
         }
         else if(randomNum == 2){
-            System.out.println("Are you surprised that I can talk?")
+            return "Are you surprised that I can talk?";
     }
         return "meow!";
     }
